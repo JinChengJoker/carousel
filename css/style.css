@@ -1,0 +1,32 @@
+.active {
+    color: red;
+}
+
+.carousel {
+    position: relative;
+    width: 640px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 1s;
+}
+.carousel-points {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.carousel-points > span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    background: #fff;
+    border-radius: 50%;
+}
+.carousel-points > span.active {
+    background: #007aff;
+}
