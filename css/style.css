@@ -1,10 +1,7 @@
-.active {
-    color: red;
-}
-
 .carousel {
     position: relative;
     width: 640px;
+    margin: 0 auto;
     overflow: hidden;
     cursor: pointer;
 }
